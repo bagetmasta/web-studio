@@ -37,7 +37,7 @@
 
 .hero {
   background-image: $linear-gradient, 
-  url('../../../../images/jpg/bcg/bcg-img-mob.jpg');
+  url('../images/jpg/bcg/bcg-img-mob.jpg');
   height: auto;
   background-size: cover;
   background-color: $bcg-color;
@@ -48,14 +48,14 @@
 (min-resolution: 2dppx) {
   .hero {
     background-image: $linear-gradient, 
-    url('../../../../images/jpg/bcg/bcg-img-mob@2x.jpg');
+    url('../images/jpg/bcg/bcg-img-mob@2x.jpg');
   }
 }
 
 @media (min-width: 480px) {
   .hero {  
     background-image: $linear-gradient, 
-    url('../../../../images/jpg/bcg/bcg-img-tab.jpg');
+    url('../images/jpg/bcg/bcg-img-tab.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -63,7 +63,7 @@
   (min-resolution: 2dppx) {
     .hero {
       background-image: $linear-gradient, 
-      url('../../../../images/jpg/bcg/bcg-img-tab@2x.jpg');
+      url('../images/jpg/bcg/bcg-img-tab@2x.jpg');
     }
   }
 }
@@ -71,7 +71,7 @@
 @media (min-width: 768px) {
   .hero {  
     background-image: $linear-gradient, 
-    url('../../../../images/jpg/bcg/bcg-img-desk.jpg');
+    url('../images/jpg/bcg/bcg-img-desk.jpg');
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -79,7 +79,7 @@
   (min-resolution: 2dppx) {
     .hero {
       background-image: $linear-gradient, 
-      url('../../../../images/jpg/bcg/bcg-img-desk@2x.jpg');
+      url('../images/jpg/bcg/bcg-img-desk@2x.jpg');
     }
   }
 }
