@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тренировка</title>
+  <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="element">1</div>
+    <div class="element">2</div>
+    <div class="element">3</div>
+    <div class="element">4</div>
+    <div class="element">5</div>
+    <div class="element">6</div>
+  </div>
+
+
+   <!-- Выпадающее мобильное меню старое -->
+
+        <button
+        type="button"
+        class="menu-button"
+        aria-expanded="false"
+        aria-controls="menu-container"
+        data-menu-button
+      >
+        <svg class="menu-button__svg" width="40" height="40" aria-label="Переключательно мобильного меню">
+          <use class="icon-cross" href="./images/mobile_menu.svg#icon-cross_menu"></use>
+          <use class="icon-burger" href="./images/mobile_menu.svg#icon-burger_menu"></use>
+        </svg>
+      </button>
+
+      <div class="menu-container" id="menu-container" data-menu>
+        <div class="menu-container__main">
+          <!-- <div class="navigation-container"> -->
+            <ul class="mobile-navigation">
+              <li class="mobile-navigation__item">
+                <a href="" class="mobile-navigation__link ">Студия</a>
+              </li>
+              <li class="mobile-navigation__item">
+                <a href="./portfolio.html" class="mobile-navigation__link">Портфолио</a>
+              </li>
+              <li class="mobile-navigation__item">
+                <a href="./contact.html" class="mobile-navigation__link">Контакты</a>
+              </li>
+              </ul>
+          <!-- </div> -->
+  
+          <div class="contact-container">
+            <ul class="mobile-contact">
+              <li class="mobile-contact__item">
+                <a href="tel:+380961111111" class="mobile-contact__link mobile-contact__link--phone">+38 096 111 11 11</a>
+              </li>
+              <li class="mobile-contact__item">
+                <a href="mailto:info@devstudio.com" class="mobile-contact__link mobile-contact__link--mail">info@devstudio.com</a>
+              </li>
+            </ul>
+    
+            <ul class="mobile-networks">
+              <li class="mobile-networks__item"><a href="https://www.instagram.com/" target="_blank" rel="noopener" class="mobile-networks__link">Instagram</a></li>
+              <li class="mobile-networks__item"><a href="https://twitter.com/" target="_blank" rel="noopener" class="mobile-networks__link">Twitter</a></li>
+              <li class="mobile-networks__item"><a href="https://uk-ua.facebook.com/" target="_blank" rel="noopener" class="mobile-networks__link">Facebook</a></li>
+              <li class="mobile-networks__item"><a href="https://ru.linkedin.com/" target="_blank" rel="noopener" class="mobile-networks__link">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
