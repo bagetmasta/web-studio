@@ -22,20 +22,31 @@
 
 .modal {
   position: absolute;
-  width: 450px;
-  height: 609px;
   top: 50%;
   left: 50%;
-  padding: 40px;
+
 
   background-color: #FFFFFF;
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform $timing-function $transition-duration;
 
+  @media screen and (max-width: 479.98px) {
+    width: 90vw;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+    padding: 40px;
+  }
+
   @media screen and (min-width: 1200px) {
-    width: 528px;
-    height: 581px;
+    max-width: 528px;
   }
 }
 
@@ -46,9 +57,17 @@
 
 .modal__title {
   display: block;
-  margin-bottom: 30px;
-  font-size: 20px;
-  line-height: 1.5;
+
+  @media screen and (max-width: 479.98px) {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  @media screen and (min-width: 480px) {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
 
   @media screen and (min-width: 1200px) {
     line-height: 1.15;
@@ -177,6 +196,12 @@
 
   transition: background-color $transition-duration $timing-function, border-color $transition-duration $timing-function,
   background-image $transition-duration $timing-function;
+
+  @media screen and (max-width: 479.98px) {
+    width: 14px;
+    height: 13px;
+    margin-right: 3px;
+  }
 }
 
 .modal__policy {
@@ -184,6 +209,11 @@
   align-items: center;
   color: $secondary-text-color;
   cursor: pointer;
+
+  @media screen and (max-width: 479.98px) {
+    display: inline-block;
+
+  }
 }
 
 .modal__conditions {
@@ -237,4 +267,18 @@
   &:focus {
     fill: $accent-color;
   }
+
+  @media screen and (max-width: 479.98px) {
+    width: 15px;
+    height: 15px;
+  }
 }
+
+.modal__button-close-svg {
+  @media screen and (max-width: 479.98px) {
+    position: absolute;
+    top: 0;
+    right: 1px;
+  }
+}
+
