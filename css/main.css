@@ -732,9 +732,24 @@ body {
   .mobile-networks__item:not(:first-child) {
     margin-left: 10px;
   }
+}
+
+@media screen and (max-width: 767.98px) and (max-width: 479.98px) {
+  .mobile-networks__item:not(:first-child) {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
   .mobile-networks__item:not(:last-child) {
     border-right: 1px solid rgba(33, 33, 33, 0.2);
     padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 767.98px) and (max-width: 479.98px) {
+  .mobile-networks__item:not(:last-child) {
+    padding-right: 5px;
   }
 }
 
@@ -1185,7 +1200,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .modal {
-    max-width: 528px;
+    width: 528px;
   }
 }
 
@@ -2098,6 +2113,13 @@ body {
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(0);
   opacity: 1;
+}
+
+@media screen and (max-width: 479.98px) {
+  .grid__overlay {
+    font-size: inherit;
+    padding: 25px 16px;
+  }
 }
 
 .grid__description {
