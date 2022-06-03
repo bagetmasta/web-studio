@@ -92,19 +92,23 @@
   
     &__item:not(:first-child) {
       margin-left: 10px;
-
-      @media screen and (max-width: 479.98px) {
-        margin-left: 5px;
-      }
     }
   
     &__item:not(:last-child) {
       border-right: 1px solid rgba(33, 33, 33, 0.2);
       padding-right: 10px;
+    }
+  }
 
-      @media screen and (max-width: 479.98px) {
-        padding-right: 5px;
-      }
+  .mobile-networks__item:not(:first-child) {
+    @media screen and (max-width: 479.98px) {
+      margin-left: 5px;
+    }
+  }
+
+  .mobile-networks__item:not(:last-child) {
+    @media screen and (max-width: 479.98px) {
+      padding-right: 5px;
     }
   }
 
