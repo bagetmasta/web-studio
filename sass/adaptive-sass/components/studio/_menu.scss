@@ -13,10 +13,9 @@
   z-index: 5;
   cursor: pointer;
 
-
   &:hover,
   &:focus &__svg {
-    fill: #2196F3;
+    fill: #2196f3;
   }
 
   & .icon-cross {
@@ -84,16 +83,16 @@
 
     font-size: 18px;
     line-height: 1.2;
-  
+
     &__link {
       text-decoration: none;
       color: $accent-color;
     }
-  
+
     &__item:not(:first-child) {
       margin-left: 10px;
     }
-  
+
     &__item:not(:last-child) {
       border-right: 1px solid rgba(33, 33, 33, 0.2);
       padding-right: 10px;
