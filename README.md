@@ -5,4 +5,4 @@ examples of work, as well as fill out a form to order a service.
 
 ---
 
-# To initialize and locally run the project you can use your live-server.
+To initialize and locally run the project you can use your live-server.
